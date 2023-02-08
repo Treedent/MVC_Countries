@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAM,CACJ,KAAK,CAAE,GAAG,CAEZ,KAAM,CACJ,KAAK,CAAE,GAAG,CAEZ,KAAM,CACJ,KAAK,CAAE,GAAG,CAEZ,mBAAoB,CAClB,gBAAgB,CAAE,OAAO,CACzB,OAAO,CAAE,GAAG,CAEd,IAAO,CACL,eAAe,CAAE,IAAI",
+"sources": ["../../../Src/Scss/mvc.scss"],
+"names": [],
+"file": "mvc.min.css"
+}
