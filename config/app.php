@@ -9,6 +9,6 @@ $conf = [
         'host'      => 'localhost',
         'database'  => 'mvc',
         'user'      => 'root',
-        'password'  => 'PhpRoot@2022'
+        'password'  => 'YOUR_PASSWORD'
     ]
 ];
