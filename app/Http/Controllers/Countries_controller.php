@@ -32,7 +32,7 @@ class Countries extends Controller
         $cnx = Database::getInstance();
 
         // Requête d'un seul pays
-        $country = $cnx->requete('SELECT `cn_iso_2`, `cn_iso_3`, `cn_official_name_local`, `cn_short_fr`, `cn_official_name_en`, `cn_capital`, `cn_tldomain`, `cn_phone`, `cn_eu_member`, `cn_uno_member` FROM `static_countries` WHERE `uid`=' . $uid_country, 'fetch');
+        $country = $cnx->requete('SELECT cn.`cn_iso_2`, cn.`cn_iso_3`, cn.`cn_official_name_local`, cn.`cn_short_fr`, cn.`cn_official_name_en`, cn.`cn_capital`, cn.`cn_tldomain`, cn.`cn_phone`, cn.`cn_eu_member`, cn.`cn_uno_member`, tr.`tr_name_fr` FROM `static_countries` cn INNER JOIN `static_territories` tr ON tr.`uid` = cn.`cn_parent_territory_uid` WHERE cn.`uid`=' . $uid_country, 'fetch');
 
         // On affiche les informations d'un seul pays par son uid
         return $this->render('layouts.Default', 'templates.ShowCountry', $country);

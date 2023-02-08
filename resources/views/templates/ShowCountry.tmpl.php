@@ -9,6 +9,7 @@
         'cn_official_name_local' => 'Nom officiel local',
         'cn_official_name_en' => 'Nom officiel anglais',
         'cn_short_fr' => 'Nom officiel français',
+        'tr_name_fr' => 'Région',
         'cn_capital' => 'Capitale',
         'cn_tldomain' => 'Domain internet',
         'cn_phone' => 'Indicatif téléphonique',
@@ -42,28 +43,5 @@
     </table>
     <a href="/" class="btn btn-primary float-start">Retourner à la liste des pays</a>
 </div>
-<!--
-uid
-cn_iso_2
-cn_iso_3
-cn_iso_nr
-cn_parent_territory_uid
-cn_parent_tr_iso_nr
-cn_official_name_local
-cn_official_name_en
-cn_capital
-cn_tldomain
-cn_currency_uid
-cn_currency_iso_3
-cn_currency_iso_nr
-cn_phone
-cn_eu_member
-cn_uno_member
-cn_address_format
-cn_zone_flag
-cn_short_local
-cn_short_en
-cn_country_zones
--->
 
 
